@@ -8,8 +8,7 @@ using System.Web;
 /// </summary>
 public class Customer
 {
-	//public Customer()
-	//{
+
         public string FirstName{set; get; }
         public string LastName{set; get; }
         public string Email{set; get; }
@@ -19,6 +18,7 @@ public class Customer
         public string PlainPassword{set; get; }
         public Byte[] Password { set; get; }
         public int Passcode{set; get; }
+        public int Donate { set; get; }    
 
-	//}
+
 }

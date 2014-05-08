@@ -12,8 +12,8 @@ public partial class Default4 : System.Web.UI.Page
         //In this code we get the values from the URL using
         //the Request object and then display them
         //in the label
-        string firstName = Request.QueryString["first"];
-        string lastName = Request.QueryString["last"];
+        string firstName = Request.QueryString["FirstName"];
+        string lastName = Request.QueryString["LastName"];
         Label1.Text = "Thank you, " + firstName + " " + lastName + " for your donation";
     }
 }
